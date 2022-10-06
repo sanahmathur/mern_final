@@ -34,7 +34,7 @@ const Homepage = () => {
      <h2 className='heading'>Hii, This Is Your Profile Page</h2>
      </div>
       <div class="card mt-4">
-        <img src="img.jpg"  style={{ width: '100%' }} />
+        
         {
           getuser.map((ele,id)=>{
             return (

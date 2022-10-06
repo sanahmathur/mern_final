@@ -47,7 +47,7 @@ const Crud = (setLogin) => {
     console.log(typeof emailFromLocalStorage);
     console.log(typeof user2.email);
     if (emailFromLocalStorage !== user2.email) {
-      setError("Email Didn't Match With Manager's ID");
+      setError("Email Didn't Match With Student's ID");
     } else {
       if (fname && lname && email && mobile) {
         axios
